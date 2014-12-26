@@ -2,6 +2,7 @@ todo-cp
 =======
 
 ToDo list for CasePress
+Основана на http://johnny.github.io/jquery-sortable/
 
 
 # Todo
