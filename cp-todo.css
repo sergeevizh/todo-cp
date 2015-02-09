@@ -72,3 +72,7 @@ ul.list-group li.placeholder:before {
 #cp-todo-container {
   margin-bottom: 10px;
 }
+
+.add-cp-todo-container input{
+  margin-bottom: 10px;
+}

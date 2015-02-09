@@ -46,7 +46,7 @@ function add_cp_todo_list(){
             <?php do_action('add_cp_todo_items', $comments); ?>
         </ul>
         <div class="add-cp-todo-container">
-            <input type="text" id="new-cp-todo-item">
+            <input type="text" id="new-cp-todo-item" class="form-control">
             <button class="btn btn-default" type="button" id="add-cp-todo-item">Добавить пункт</button>
         </div>
     </div>
