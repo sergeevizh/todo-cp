@@ -1,0 +1,74 @@
+body.dragging, body.dragging * {
+  cursor: move !important;
+}
+
+.dragged {
+  position: absolute;
+  opacity: 0.5;
+  z-index: 2000;
+}
+
+ul.list-group li.placeholder {
+  position: relative;
+  /** More li styles **/
+}
+ul.list-group li.placeholder:before {
+  position: absolute;
+  /** Define arrowhead **/
+}
+
+.hide-hover{
+  display: none;
+}
+
+.cp-todo-controls {
+  margin-bottom: 10px;
+}
+
+.panel:hover .hide-hover{
+  display: block;
+}
+
+#cp-todo li {
+  list-style-type: none;
+}
+
+#cp-todo li.placeholder {
+  border: medium none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#cp-todo li.placeholder:before{
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  margin-top: -5px;
+  left: -5px;
+  top: -4px;
+  border: 5px solid transparent;
+  border-left-color: red;
+  border-right: none;
+}
+
+#cp-todo .panel-body{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#cp-todo .done-time {
+  font-size: 12px;
+}
+
+#cp-todo .panel {
+  margin-bottom: 5px;
+}
+#cp-todo {
+  padding-left: 0px;
+}
+
+#cp-todo-container {
+  margin-bottom: 10px;
+}
